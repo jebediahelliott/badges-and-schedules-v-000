@@ -16,3 +16,8 @@ def assign_rooms(array)
     "Hello, #{name}! You'll be assigned to room #{i+1}!"
   end
 end
+
+#Method outputs each element from the arrays returned from batch_badge_creator and assign_rooms
+def printer
+
+end
