@@ -18,6 +18,9 @@ def assign_rooms(array)
 end
 
 #Method outputs each element from the arrays returned from batch_badge_creator and assign_rooms
-def printer
-  badges = 
+def printer(array)
+  badges = batch_badge_creator(array)
+  rooms = assign_rooms(array)
+  badges.each{|badge| puts badge}
+  rooms.each{|room| puts room}
 end
