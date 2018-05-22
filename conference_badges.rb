@@ -5,5 +5,7 @@ end
 
 #Method takes array of names and returns each name with a message
 def conference_badges(array)
-  
+  array.collect do |name|
+    badge_maker(name)
+  end
 end
