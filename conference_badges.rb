@@ -19,5 +19,5 @@ end
 
 #Method outputs each element from the arrays returned from batch_badge_creator and assign_rooms
 def printer
-
+  badges = 
 end
